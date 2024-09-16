@@ -1,0 +1,23 @@
+def is_valid_move(board, row, col, num):
+    # Check if 'num' can be placed in the given cell
+    # based on Sudoku rules
+    # (i.e., no repetition in row, column, or box)
+    pass
+
+def solve_sudoku(board):
+    # Find an empty cell (with value 0)
+    # and try placing numbers 1 to 9
+    pass
+
+# Example Sudoku grid (0 represents empty cells)
+sudoku_grid = [
+    [5, 3, 0, 0, 7, 0, 0, 0, 0],
+    [6, 0, 0, 1, 9, 5, 0, 0, 0],
+    # ... (fill in the rest of the grid)
+]
+
+solve_sudoku(sudoku_grid)
+
+# Print the solved Sudoku grid
+for row in sudoku_grid:
+    print(row)
